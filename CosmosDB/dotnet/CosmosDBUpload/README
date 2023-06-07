@@ -1,0 +1,7 @@
+1. Change th Cosmos DB Settings (your own cosmosdb account)
+2. Save the CosmosDB key as a GitHub Secrets
+3. Upload the restaurant reviews
+4. Compare RU comsuption whe querying by RestaurantName
+    SELECT * FROM c WHERE c.restaurantName = "Restaurant 54"
+
+TODO need to try with Autoscale and more RU (Serverless not enough)
